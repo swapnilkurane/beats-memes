@@ -1,0 +1,1 @@
+fetch("https://www.reddit.com/r/memes.json").then(res => res.json()).then(res => res.data.children)
